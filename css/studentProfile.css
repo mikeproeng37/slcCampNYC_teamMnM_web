@@ -1,0 +1,41 @@
+﻿#title 
+{
+    color: White;
+    background-color : #158161;        
+}
+
+#header 
+{
+    background-image : url('../img/topbar.png');
+    background-repeat : repeat-x;
+    height : 13px;
+}
+
+#footer 
+{
+    background-image : url('../img/bottombar.png');
+    background-repeat : repeat-x;
+    height: 13px;
+}
+
+.timelineMajor 
+{
+    margin-left : 20px;
+}
+
+.clipboard
+{
+    background-image : url('../img/clipboard.png');
+    background-repeat: no-repeat;
+    height: 600px;
+}
+
+.chalkboard 
+{
+    color: White;
+    background-image : url('../img/chalkboardError.png');
+    background-repeat: no-repeat;
+    height: 600px;
+    text-align:center;
+    font-size:x-large;
+}

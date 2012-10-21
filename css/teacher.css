@@ -1,0 +1,114 @@
+﻿body {
+    font-size: large;
+}
+
+header {
+	   position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        z-index: 10000;
+        height: 37px;
+        line-height: 37px;
+        color: #DDD;
+        text-shadow: 0 -1px black;
+        border-bottom: 1px solid #191919;
+        background-color: #D7E4BD;
+        box-shadow: 10px 10px 5px #888;
+}
+
+.top {
+    width: 540px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.content {
+    margin: 40px auto;
+    color: #095F78;
+    text-shadow: 0 1px rgba(255, 255, 255, 0.3);
+    border-radius: 3px;
+    top: 40px;
+    margin-left: 100px;
+}
+    .content ul {
+        margin: 0px;
+    }
+    .content li {
+        list-style: none;
+    }
+
+.nav {
+    	position: fixed;
+        top: 37px;
+        left: 0;
+        z-index: 10000;
+        width: auto;
+        color: #DDD;
+        text-shadow: 0 -1px black;
+        border-bottom: 1px solid #191919;
+        background-color: #F2F2F2;
+        float: left;
+        font-size: x-large;
+        height: 100%;
+}
+
+    .nav li {
+        padding: 10px 20px 10px 20px;
+        vertical-align: middle;
+    }
+
+    .nav li:hover {
+        background-color: #BFBFBF;
+    }
+
+        .nav li img {
+            width: 30px;
+            height: 30px
+        }
+
+.student {
+    width: 235px;
+    height: 40px;
+    text-align: center;
+    padding-top: 16px;
+    margin-bottom: 10px;
+    -moz-border-radius: 15px;
+    border-radius: 15px;
+    -moz-box-shadow:    1px 1px 2px 2px #ccc;
+  -webkit-box-shadow: 1px 1px 2px 2px #ccc;
+  box-shadow:         1px 1px 2px 2px #ccc;
+  
+}
+
+    .student:hover {
+        cursor: pointer;
+    }
+
+.students {
+    margin: 0px 0px 0px 80px;  
+        float: left;
+        width: 300px;
+}
+
+ul li{
+    list-style: none;
+}
+
+.students ul {
+    box-shadow: 10px 10px 5px #888;
+    text-align: center;
+}
+
+#studentData {
+    margin-left: 450px;
+}
+
+#createNewNote {
+    padding: 10px;
+    margin-bottom: 30px;
+}
+
+#createNewNote button{
+    vertical-align: middle;
+}
